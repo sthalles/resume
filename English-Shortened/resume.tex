@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% The main font used in this template, Adobe Garamond Pro, does not 
+% come with Windows by default. You will need to download it in
+% order to get an output as in the preview PDF. Otherwise, change this 
+% font to one that does come with Windows or comment out the font line 
+% to use the default LaTeX font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt, a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+\usepackage{scrlayer-scrpage} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+\usepackage{hyperref}
+\usepackage{mdwlist}
+\usepackage[top=3.0cm,left=2.0cm,right=2.0cm,bottom=2.0cm]{geometry} %margens
+
+\usepackage{fontspec}
+
+\usepackage{polyglossia}
+\setmainlanguage{portuges}
+
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{Adobe Garamond Pro} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+%\addtolength{\voffset}{-0.2in} % Adjust the vertical offset - less whitespace at the top of the page
+%\addtolength{\textheight}{-0.1in} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% HEADER SECTION
+%----------------------------------------------------------------------------------------
+\lohead{\addfontfeature{LetterSpace=20.0}\fontsize{19}{26}\selectfont\scshape Thalles Santos Silva}
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+\rohead{
+	\addfontfeature{LetterSpace=20.0}\fontsize{12}{10}
+	Rua Culto à Ciência {\large\textperiodcentered} Campinas {\large\textperiodcentered} Brazil 13020-061\\
+	{\Large\Letter} thalles753@gmail.com \ {\Large\Telefon} +55 (73) 98222-8989
+}
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\begin{document}
+
+%\begin{center} % Center everything in the document
+\pagenumbering{gobble} % remove the page number
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.34cm}X}
+\gray Period & \textbf{July 2009 --- December 2014}\\
+\gray Degree & \textbf{Bachelor in Computer Science}\\
+\gray Universities & \textbf{The State University of Santa Cruz} \hfill Ilhéus, Brazil\\ 
+\gray & \textbf{Algoma University} \hfill Sault Ste Marie, Canada\\
+\gray Exchange & \textbf{Science Without Borders} - Brazilian Government.
+\end{tabularx}
+\end{center}
+
+\begin{itemize}\itemsep1.5pt
+
+\item Three years as \textbf{Student Researcher} sponsored by Higher Education Personnel Training Coordination (CAPES).
+
+\item \textbf{Theses in Computer Science:} Parallel Processing Using Hybrid Techniques for Applications in Transport of Particles based on Monte Carlo method. Technologies: NVIDIA CUDA, OpenMP e MPI.
+   
+\item \textbf{EasyKanban (2012)}. Web-based application for project management; Tecnologias: HTML5, CSS3, SQL, JavaScript, PHP. \textit{Awarded First Prize in Computer Science Software Engineering Class Contest}.
+  
+\item \textbf{Application for compressing and encrypting text files} using Huffman algorithm which can reduce the file's size by 60\%. \textit{Awarded First Prize in Computer Science Programming Class Contest}, (2010). 
+  
+\end{itemize}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.34cm}X}
+\gray Period & \textbf{April 2015 --- In progress}\\
+\gray Degree & \textbf{Machine Learning Engineer Nanodegree}\\
+\gray Institution & \textbf{Udacity}\\ 
+\end{tabularx}
+\end{center}
+
+\begin{itemize}
+\item For more information please refer to: \url{https://profiles.udacity.com/u/thallessilva}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Period & \textbf{May 2015 --- Currently}\\
+\gray Employer & \textbf{Eldorado Institute of Technology} \hfill Campinas, Brazil\\
+\gray Position & \textbf{Software Engineer Jr }\\
+\gray Languages & \textbf{C\#, C++, JavaScript }\\
+\end{tabularx}
+\end{center}
+
+\begin{itemize}
+\item Maintained an effective and constant interaction with project's customers.
+\item Scrum based methodology projects.
+\item Contributed to some of the most relevant projects in the field of image processing. 
+\item One of the contributors of the internal Machine Learning research group. 
+\end{itemize}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Period & \textbf{May 2014 --- November 2014}\\
+\gray Employer & \textbf{Great Lakes Forestry Centre } \hfill Sault Ste Marie, Canada\\
+\gray Position & \textbf{Researcher Junior}\\
+\gray Languages & \textbf{R, Linux Shell Script}\\
+\end{tabularx}
+\end{center}
+
+\begin{itemize}\itemsep1.5pt
+
+\item Led implementation of the R opentraj package for creating and analysing air trajectory data which was the main computational tool for a research project on insects' transportation.
+
+\item Developed scripts for executing software, such as \textit{Hybrid Single Particle Lagrangian Integrated Trajectory Model} (HYSPLIT), without its GUI interface in order to redirect its results into the R environment.
+
+\end{itemize}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Period & \textbf{March 2012 --- June 2013 (Part Time)}\\
+\gray Employer & \textbf{RCS Informática} \hfill Itabuna, Brazil\\
+\gray Position & \textbf{Software Developer}\\
+\gray Languages & \textbf{Delphi, HTML5, CSS3, JavaScript, PHP, MySQL}\\
+\end{tabularx}
+\end{center}
+
+\begin{itemize}\itemsep1.5pt
+\item Developed and debugged software, such as Protocol System, Accounting System, and Daily Management System which led to a percent increase of 8\% in revenue.
+
+\item Redesigned the Enterprise's website leading to a 20\% reduction in customer supporting calls.
+%\item Wrote SQL scripts for retrieving data from FireBird databases to Delphi applications.\\
+
+\item Debugged existing software plug-ins for user management and report generation.
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+
+\section{Extracurricular Activities}
+\begin{center}
+\begin{itemize}
+\item {English as a Second Language (ESL) - Canada}
+\item Achieve Languages - Brazil
+\item Udacity Introduction to Computer Science Building a Search Engine
+\item Udacity Introduction to Parallel Programming using NVIDIA CUDA
+\item University of California, Santa Cruz + Coursera, C++ for C Programmers
+\item Udacity Introduction to Machine Learning.
+\item Udacity Deep Learning
+\item Udacity Objected Oriented JavaScript
+\item Udacity JavaScript Design Patterns
+\end{itemize}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{center}
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{3.2cm}X}
+\gray Languages & \textbf{C; C++; C\#, Java; R; HTML; PHP; Python; SQL; CUDA; OpenMP; MPI;}\\
+\gray Data Bases & \textbf{MySQL, PostgreSQL, Oracle Enterprise Edition;}\\
+\gray Technologies & \textbf{Eclipse; NetBeans; SVN; Git; Visual Studio}\\
+\gray Certifications & \textbf{JavaScript;}\\
+\gray Operating Systems & \textbf{Linux; MAC OS; Windows;}\\
+\gray Frameworks and Libraries & \textbf{AngularJS, KnockoutJS, TensorFlow, Sklearn}\\
+\end{tabularx}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	IDIOMAS
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
+  \item English and Portuguese 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCIAS
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\begin{itemize} \itemsep2pt \parskip0pt \parsep0pt
+\item \textbf{Dr Jean-Noel Candau}, Scientist, Great Lakes Forestry Centre, Sault Ste Marie, Ontario, Canada. \textit{Jean-Noel.Candau@NRCan-RNCan.gc.ca}
+
+\item \textbf{Dr Esbel Tomás V. Orellana}, Teacher, The State University of Santa Cruz, Ilhéus, Brazil. \textit{valero.esbel@gmail.com} 
+
+\item \textbf{Mydiã Falcão Freitas}, Software Engineer, RCS Informática, Itabuna, Brazil. \textit{mydyfreitas@gmail.com} 
+\end{itemize}
+
+%\end{center}
+
+\end{document}

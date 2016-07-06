@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% The main font used in this template, Adobe Garamond Pro, does not 
+% come with Windows by default. You will need to download it in
+% order to get an output as in the preview PDF. Otherwise, change this 
+% font to one that does come with Windows or comment out the font line 
+% to use the default LaTeX font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt, a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+\usepackage{hyperref}
+\usepackage{mdwlist}
+\usepackage[top=3.0cm,left=1.8cm,right=1.8cm,bottom=2.0cm]{geometry} %margens
+
+\usepackage{fontspec}
+
+\usepackage{polyglossia}
+\setmainlanguage{portuges}
+
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{Adobe Garamond Pro} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+%\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+%\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% HEADER SECTION
+%----------------------------------------------------------------------------------------
+\lohead{\addfontfeature{LetterSpace=20.0}\fontsize{19}{26}\selectfont\scshape Thalles Santos Silva}
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+\rohead{
+	\addfontfeature{LetterSpace=20.0}\fontsize{10}{10}
+	Travessa Castro Alves {\large\textperiodcentered} Itabuna {\large\textperiodcentered} Brasil 45600-000\\
+	{\Large\Letter} thalles753@gmail.com \ {\Large\Telefon} +55 (73) 8222-8989
+}
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\begin{document}
+
+\pagenumbering{gobble} % remove the page number
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educação}
+
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.34cm}X}
+\gray Período & \textbf{Julho 2009 --- Dezembro 2014}\\
+\gray Graduação & \textbf{Bacharelado em Ciência da Computação}\\
+\gray Universidade & \textbf{Universidade Estadual de Santa Cruz} \hfill Ilhéus, Brasil\\
+\gray & \textbf{Algoma University} \hfill Sault Ste Marie, Canadá\\
+\gray Intercâmbio & \textbf{Ciência sem Fronteiras} do Governo Federal brasileiro.
+\end{tabularx}
+
+\begin{itemize}\itemsep1.5pt
+
+\item Bolsista de Iniciação Científica oferecido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).
+
+  \item \textbf{Trabalho de Conclusão de Curso:} Processamento paralelo utilizando técnicas híbridas para aplicações em transporte de partículas baseadas no método de Monte Carlo. Tecnologias: NVIDIA CUDA, OpenMP e MPI.
+   
+  \item \textbf{EasyKanban (2012)}. Aplicação web para gerenciamento de projetos. Tecnologias: HTML5, CSS3, SQL, JavaScript, PHP. \textit{Primeiro prêmio no concurso de Engenharia de Software do curso de Ciência da Computação}.
+  
+  \item Aplicação para compressão e criptografia de arquivos de texto (2010) utilizando o método de Huffman capaz de reduzir o tamanho do arquivo em até 60\%. \textit{Primeiro prêmio no concurso de programação do curso de Ciência da Computação}. 
+  
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Profissional}
+
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Período & \textbf{Maio 2014 --- Novembro 2014}\\
+\gray Empregador & \textbf{Great Lakes Forestry Centre } \hfill Sault Ste Marie, Canadá\\
+\gray Posição & \textbf{Pesquisador}\\
+\gray Linguagens & \textbf{R, Linux Shell Script}\\
+
+\end{tabularx}
+
+\begin{itemize}\itemsep1.5pt
+
+\item Liderou a criação do pacote R openair voltado para a criação e analise de dados de correntes de ar, que foi utilizado como a principal ferramenta computacional em um projeto de pesquisa sobre locomoção de insetos.
+
+\item Desenvolveu scripts (Shell) para execução do software \textit{Hybrid Single Particle Lagrangian Integrated Trajectory Model} (HYSPLIT) sem sua interface gráfica de modo a transportar os resultados para o ambiente R.
+
+\end{itemize}
+
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Período & \textbf{Março 2012 --- Junho 2013 (Meio Período)}\\
+\gray Empregador & \textbf{RCS Informática, Itabuna} \hfill Itabuna, Brasil\\
+\gray Posição & \textbf{Desenvolvedor de Software}\\
+\gray Linguagens & \textbf{Delphi, HTML5, CSS3, JavaScript, PHP, MySQL}\\
+
+\end{tabularx}
+
+\begin{itemize}\itemsep1.5pt
+\item Desenvolveu e testou sistemas de Protocolos, Contabilidade e Gestão de Diárias, resultando em um aumento de 8\% na renda da empresa.
+
+\item Reimplementou o sistema web da empresa resultando em uma redução de 20\% nas chamadas de suporte dos cliente.
+
+% \item Desenvolveu SQL scripts para manipulação de dados utilizando FireBird (banco de dados).\\
+
+\item Depurou e modificou componentes de software como: plug-in para gerenciamento de usuários e geração de relatórios.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+\section{Atividades Extracurriculares}
+
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{2.6cm}X}
+Inglês & \textbf{English as a Second Language (ESL) - Canada}, Achieve Languages - Brasil\\
+Cursos Online & Introduction to Computer Science Building a Search Engine,  Introduction to Parallel Programming using NVIDIA CUDA, C++ for C Programmers, Introduction to Machine Learning.\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades}
+
+\begin{tabularx}{1.0\linewidth}{>{\raggedleft\scshape}p{3.6cm}X}
+\gray Linguagens & \textbf{C; C++; Java; R; HTML; PHP; Python; SQL; CUDA; OpenMP; MPI;}\\
+\gray Frameworks/Libraries & \textbf{AngularJS, KnockoutJS, OpenCV}\\
+\gray Banco de Dados & \textbf{MySQL, PostgreSQL, MongoDB, Oracle Enterprise Edition; Vertica}\\
+\gray Tecnologias & \textbf{XCode; Eclipse; NetBeans; SVN; Git;}\\
+\gray Certificações & \textbf{JavaScript;}\\
+\gray Sistemas Operacionais & \textbf{Linux; MAC OS; Windows;}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	IDIOMAS
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
+  \item Inglês (Fluente), Português.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCIAS
+%----------------------------------------------------------------------------------------
+
+\section{Referências}
+
+\begin{itemize} \itemsep2pt \parskip0pt \parsep0pt
+\item \textbf{Dr Jean-Noel Candau}, Cientista, Great Lakes Forestry Centre, Sault Ste Marie, Canadá. \textit{Jean-Noel.Candau@NRCan-RNCan.gc.ca}
+\item \textbf{Dr Esbel Tomás V Orellana}, Professor, Universidade Estadual de Santa Cruz, Ilhéus, Brasil. \textit{valero.esbel@gmail.com} 
+\item \textbf{Mydiã Falcão Freitas}, Engenheira de Software, RCS Informática, Itabuna, Bahia, Brasil. \textit{mydyfreitas@gmail.com} 
+\end{itemize}
+
+% \end{center}
+
+\end{document}

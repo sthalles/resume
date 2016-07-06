@@ -1,0 +1,252 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% The main font used in this template, Adobe Garamond Pro, does not 
+% come with Windows by default. You will need to download it in
+% order to get an output as in the preview PDF. Otherwise, change this 
+% font to one that does come with Windows or comment out the font line 
+% to use the default LaTeX font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+\usepackage{hyperref}
+\usepackage{mdwlist}
+
+\usepackage{fontspec}
+
+\usepackage{polyglossia}
+\setmainlanguage{portuges}
+
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{Adobe Garamond Pro} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% �FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\addfontfeature{LetterSpace=20.0}\fontsize{12.5}{17}\selectfont % Letter spacing and font size
+
+Travessa Castro Alves {\large\textperiodcentered} Itabuna {\large\textperiodcentered} Brasil 45600-000\\ % Your mailing address
+{\Large\Letter} thalles753@gmail.com \ {\Large\Telefon} (73) 8222-8989 % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+% �HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Thalles Santos Silva} % Your name at the top
+
+\vspace{1.5cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% USELESS SECTION
+%\section{Objective}
+%
+%A position in the field of computers with special interests in business applications \\ programming, information processing, and management systems.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educação}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2.34cm}X}
+\gray Período & \textbf{Julho 2009 --- Dezembro 2014}\\
+\gray Graduação & \textbf{Bacharelado em Ciência da Computação}\\
+\gray Universidade & \textbf{Universidade Estadual de Santa Cruz} \hfill Ilhéus, Brasil\\
+Cursos & Sistemas Operacionais; Banco de Dados; Algoritmos; Linguagens de Programação; Arquitetura de Computadores; Estatística; Cálculo; Processamento Paralelo; Redes\\
+& 
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2.34cm}X}
+\gray Período & \textbf{Julho 2013 --- Maio 2014}\\
+\gray Graduação & \textbf{Bacharelado em Ciência da Computação}\\
+\gray Universidade & \textbf{Algoma University} \hfill Sault Ste Marie, Canadá\\
+Intercâmbio & Participante do programa \textbf{Ciência sem Fronteiras} do Governo Federal brasileiro.
+\end{tabularx}
+
+\begin{itemize}
+
+  \item \textbf{Trabalho de Conclusão de Curso:} Processamento paralelo utilizando técnicas híbridas para aplicações em transporte de partículas baseadas no método de Monte Carlo. Obra que enfatiza os benefícios da computação paralela em algoritmos de simulação de transporte de partículas. Tecnologias: NVIDIA CUDA, OpenMP e MPI.
+   
+  \item \textbf{EasyKanban (2012)}. Aplicação web para gerenciamento de projetos. Funcionalidades: criar e gerenciar tarefas, criar e gerenciar projetos, identificar gargalos no processo de desenvolvimento. Tecnologias: HTML5, CSS3, SQL, JavaScript, PHP. \textit{Primeiro prêmio no concurso de Engenharia de Software do curso de Ciência da Computação}.
+  
+  \item Aplicação para compressão e criptografia de arquivos de texto (2010) utilizando o método algorítmico de Huffman capaz de reduzir o tamanho do arquivo em até 60\%. \textit{Ganhador do primeiro prêmio no concurso de programação do curso de Ciência da Computação}. 
+  
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Profissional}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Período & \textbf{Maio 2014 --- Novembro 2014}\\
+\gray Empregador & \textbf{Great Lakes Forestry Centre } \hfill Sault Ste Marie, Canadá\\
+\gray Posição & \textbf{Pesquisador}\\
+\gray Linguagens & \textbf{R, Linux Shell Script}\\
+
+\end{tabularx}
+
+\begin{itemize}
+
+\item Liderou a criação do pacote R openair voltado para a criação e analise de dados de correntes de ar, que foi utilizado como a principal ferramenta computacional em um projeto de pesquisa sobre locomoção de insetos.
+
+\item Desenvolveu scripts (Shell) para execução do software \textit{Hybrid Single Particle Lagrangian Integrated Trajectory Model} (HYSPLIT) sem sua interface gráfica de modo a transportar os resultados para o ambiente R.
+
+\end{itemize}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Período & \textbf{Março 2012 --- Junho 2013 (Meio Período)}\\
+\gray Empregador & \textbf{RCS Informática, Itabuna} \hfill Itabuna, Brasil\\
+\gray Posição & \textbf{Desenvolvedor de Software}\\
+\gray Linguagens & \textbf{Delphi, HTML5, CSS3, JavaScript, PHP, MySQL}\\
+
+\end{tabularx}
+
+\begin{itemize}
+\item Desenvolveu e testou sistemas de Protocolos, Contabilidade e de Gestão de Diárias, resultando em um aumento de 5\% na renda.
+\item Implementou o novo sistema web da empresa, que resultou em uma redução de 30\% das chamadas de suporte dos cliente.
+\item Desenvolveu SQL scripts para manipulação de dados utilizando FireBird (banco de dados).
+\item Depurou e modificou componentes de software existentes como: plug-in para gerenciamento de usuários e geração de relatórios.
+\end{itemize}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2.2cm}X}
+\gray Período & \textbf{Julho 2010 --- Julho 2013 (Meio Período)}\\
+\gray Empregador & \textbf{Universidade Estadual de Santa Cruz} \hfill Ilhéus, Brasil\\
+\gray Posição & \textbf{Aluno de Iniciação Científica}\\
+\gray Linguagens & \textbf{C/C++, Shell Script, CUDA, OpenMP, MPI}\\
+
+\end{tabularx}
+
+\begin{itemize}
+
+\item Bolsista do programa de Iniciação Científica oferecido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).
+
+\item Utilizou o compilador \textit{the GNU Compiler Collection} (GCC) e suas diretivas para o desenvolvimento programas seriais até 2 vezes mais eficientes do que implementações comuns.
+
+\item Desenvolveu programas paralelos híbridos para simulação de transporte de partículas utilizando as bibliotecas OpenMP e MPI até 16 vezes mais eficientes que as versões seriais.
+
+\item Desenvolveu programas paralelos utilizando CUDA até 3 vezes mais eficientes que as versões paralelas com MPI e OpenMP.
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+\section{Atividades Extracurriculares}
+\begin{itemize}
+
+\item \textbf{English as a Second Language}, Algoma University, curso de inglês intensivo, \textit{http://www.algomau.ca/esl/}.   
+
+\item \textbf{Introduction of Computer Science Building a Search Engine}, Udacity, \linebreak www.udacity.com/course/cs101. 
+
+\item \textbf{Introduction to Parallel Programming using NVIDIA C/C++ CUDA}, Udacity, \textit{https://www.udacity.com/course/cs344}.
+
+\item \textbf{C++ for C Programmers}, Coursera and University of California, Santa Cruz, \textit{https://www.coursera.org/course/cplusplus4c}.
+
+\item \textbf{Getting Started with GIS}, ESRI, \textit{http://www.esri.com/training/main}, (ArcGIS 10.0).
+
+\item \textbf{Curso de Inglês}, Achive Languages - (2010-2012).
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades}
+
+\begin{tabular}{ @{} >{\bfseries}l p{9cm} l  }
+Linguagens & C; C++; Java; R; HTML; PHP; JavaScript; Python; SQL; CUDA; OpenMP; MPI; \\
+Banco de Dados & MySQL, PostgreSQL, Oracle Enterprise Edition; \\
+Tecnologias & XCode; Eclipse; NetBeans; ArcGIS;\\
+Certificações & JavaScript\\
+Sistemas Operacionais & Linux; MAC OS; Windows;
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	IDIOMAS
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
+  \item Inglês (Fluente)
+  \item Português 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERESSES
+%----------------------------------------------------------------------------------------
+
+\section{Interesses}
+
+\begin{flushleft}
+Computação de Alto Desempenho, Linux, Big Data, Linguagens de Programação, Apredizado de Máquina, Desenvolvimento de Software.
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCIAS
+%----------------------------------------------------------------------------------------
+
+\section{Referências}
+
+\begin{itemize} \itemsep4pt \parskip0pt \parsep0pt
+\item \textbf{Dr Jean-Noel Candau}, Cientista, Great Lakes Forestry Centre, Sault Ste Marie, Ontario, Canadá. \textit{Jean-Noel.Candau@NRCan-RNCan.gc.ca}
+\item \textbf{Dr Esbel Tomás Valero Orellana}, Professor, Universidade Estadual de Santa Cruz, Ilhéus, Bahia, Brasil. \textit{valero.esbel@gmail.com} 
+\item \textbf{Mydiã Falcão Freitas}, Engenheira de Software, RCS Informática, Itabuna, Bahia, Brasil. \textit{mydyfreitas@gmail.com} 
+\end{itemize}
+
+\end{center}
+
+\end{document}
