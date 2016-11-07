@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.21)  3 NOV 2016 16:03
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.21)  4 NOV 2016 08:38
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -832,14 +832,14 @@ LaTeX Info: Redefining \nameref on input line 64.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* h-part:(L,W,R)=(62.59596pt, 472.31595pt, 62.59596pt)
+* v-part:(T,H,B)=(85.35826pt, 697.09262pt, 62.59596pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=702.78308pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \textwidth=472.31595pt
+* \textheight=697.09262pt
+* \oddsidemargin=-9.67403pt
+* \evensidemargin=-9.67403pt
 * \topmargin=-19.91173pt
 * \headheight=15.0pt
 * \headsep=18.0pt
@@ -865,7 +865,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 162; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/10 ".
@@ -874,13 +874,13 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 162; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/16 ".
 * The requested feature is "LetterSpace=20.0".
 *************************************************
-LaTeX Font Info:    Try loading font information for U+mvs on input line 166.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 162.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -891,7 +891,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=36.0pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-66.
+62.
 
 
 Overfull \vbox (21.0pt too high) has occurred while \output is active []
@@ -901,16 +901,16 @@ Overfull \vbox (21.0pt too high) has occurred while \output is active []
 ]
 
 LaTeX Warning: Hyper reference `Esbel Valero' on page  undefined on input line 
-184.
+176.
 
 
 LaTeX Warning: Hyper reference `Esbel Valero' on page  undefined on input line 
-219.
+211.
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 265; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 259; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/10 ".
@@ -919,7 +919,7 @@ LaTeX Warning: Hyper reference `Esbel Valero' on page  undefined on input line
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 265; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 259; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/16 ".
@@ -929,7 +929,7 @@ LaTeX Warning: Hyper reference `Esbel Valero' on page  undefined on input line
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 374; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 378; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/10 ".
@@ -938,19 +938,19 @@ LaTeX Warning: Hyper reference `Esbel Valero' on page  undefined on input line
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 374; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 378; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/16 ".
 * The requested feature is "LetterSpace=20.0".
 *************************************************
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 392; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 385; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/10 ".
@@ -959,30 +959,30 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 392; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 385; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/16 ".
 * The requested feature is "LetterSpace=20.0".
 *************************************************
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  (resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 392.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 385.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
  ) 
 Here is how much of TeX's memory you used:
  25618 strings out of 428408
  481379 string characters out of 3160624
- 616748 words of memory out of 3000000
+ 615751 words of memory out of 3000000
  28896 multiletter control sequences out of 15000+200000
  4525 words of font info for 29 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 58i,20n,87p,10369b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,20n,87p,10369b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on resume.pdf (4 pages).
