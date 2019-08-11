@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.4.20)  20 APR 2018 10:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2019.1.29)  11 AUG 2019 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,16 +868,10 @@ LaTeX Info: Redefining \nameref on input line 65.
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (0.80788pt too wide) in paragraph at lines 236--237
-[]\EU1/lmr/bx/n/9 Deep Convolutional Semantic Segmentation Networks \EU1/lmr/m/
-n/9 (Sep 2017): Tensorflow implementation of Google’s Deeplab-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 249; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 261; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/9 ".
@@ -886,24 +880,24 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 249; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 261; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/16 ".
 * The requested feature is "LetterSpace=20.0".
 *************************************************
-LaTeX Font Info:    Try loading font information for U+mvs on input line 249.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 261.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 249
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 261
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 249.
+(Font)              <12> on input line 261.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 249.
+(Font)              <8> on input line 261.
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -914,7 +908,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.84998pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-49.
+61.
 
 
 Overfull \vbox (19.16249pt too high) has occurred while \output is active []
@@ -924,19 +918,40 @@ Overfull \vbox (19.16249pt too high) has occurred while \output is active []
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 322; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+* 
+* The current font is "\EU1/lmr/m/sc/9 ".
+* The requested feature is "LetterSpace=20.0".
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 322; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+* 
+* The current font is "\EU1/lmr/m/sc/16 ".
+* The requested feature is "LetterSpace=20.0".
+*************************************************
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 249.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
  25279 strings out of 493638
  474989 string characters out of 6146796
- 582394 words of memory out of 5000000
+ 583396 words of memory out of 5000000
  28510 multiletter control sequences out of 15000+600000
  8197 words of font info for 44 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 59i,20n,86p,10367b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,87p,10367b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (1 page).
+Output written on resume.pdf (2 pages).
